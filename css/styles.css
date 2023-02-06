@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* list-style: none; */
   font-family: "Nunito", sans-serif;
 }
 a {
@@ -56,8 +55,9 @@ a {
 }
 
 .career {
-  font-size: 1.2rem;
-  color: #94d9ea;
+  font-size: 1.1rem;
+  /* color: #94d9ea; */
+  color: #718096;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -65,10 +65,10 @@ a {
 }
 
 .main-title {
-  font-size: 1.8rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #f7f7f7ec;
+  font-size: 1.4rem;
   padding-top: 3rem;
 }
 
@@ -84,7 +84,7 @@ a {
 }
 .contact-info ul li i {
   padding-right: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #2d9cdb;
 }
 
@@ -105,11 +105,8 @@ a {
 .github {
   margin-left: 5px;
 }
-.facebook {
+.marker {
   margin-left: 10px;
-}
-.instagram {
-  margin-left: 5px;
 }
 .telegram {
   margin-left: 2px;
@@ -122,61 +119,24 @@ a {
   padding-top: 2rem;
 }
 .skills-section ul li {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   padding: 0.4rem 0;
-}
-
-.soft-skills {
-  padding-top: 2rem;
-}
-.soft-skills_section ul li {
-  padding: 0.4rem 0;
-}
-.soft-skills {
-  margin-left: 15px;
-  list-style: square;
-  color: #2d9cdb;
-}
-.progress-bar {
-  width: 100%;
-  height: 0.4rem;
-  background-color: #2f81ed5b;
-  position: relative;
-  border-radius: 12px;
-}
-.progress {
-  height: 100%;
-  position: absolute;
-  left: 0;
-  background-color: #2d9cdb;
-  border-radius: 12px;
-}
-.js-progress {
-  width: 70%;
-}
-.ps-progress {
-  width: 90%;
-}
-.j-progress {
-  width: 85%;
-}
-.c-progress {
-  width: 40%;
-}
-.n-progress {
-  width: 63%;
-}
-.w-progress {
-  width: 78%;
 }
 
 .skill-title {
   text-transform: uppercase;
-  color: #f7f7f7;
+  /* color: #f7f7f7; */
+  color: #718096;
   font-size: 1rem;
 }
-
+.skills-list {
+  padding-top: 2rem;
+  margin-left: 15px;
+  list-style: square;
+  color: #2d9cdb;
+}
+.soft-skills_section ul li {
+  padding: 0.4rem 0;
+}
 .sub-title {
   padding-top: 2rem;
   font-size: 1.2rem;
@@ -206,7 +166,8 @@ a {
 .right-title {
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #2f80ed;
+  color: #2d9cdb;
+  font-size: 1.4rem;
   margin-bottom: 1.2rem;
   position: relative;
 }
@@ -226,7 +187,7 @@ a {
 .para {
   line-height: 1.6rem;
   color: #718096;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .sect {
@@ -240,13 +201,13 @@ a {
 
 .tl-title {
   letter-spacing: 1px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #002333;
   text-transform: uppercase;
 }
 .tl-title_a {
   letter-spacing: 1px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #002333;
   text-transform: uppercase;
 }
@@ -256,9 +217,10 @@ a {
 }
 .tl-title-2 {
   letter-spacing: 1px;
-  font-size: 1.3rem;
-  color: #2d9cdb;
+  font-size: 1.1rem;
+  color: #002333;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .tl-content {
