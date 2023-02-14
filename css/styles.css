@@ -10,7 +10,7 @@ a {
 }
 .main-content {
   min-height: 100vh;
-  width: 80%;
+  max-width: 1200px;
   margin: 2rem auto;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
